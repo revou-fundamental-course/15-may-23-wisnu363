@@ -1,0 +1,144 @@
+:root {
+  --pri: #ffffff;
+  --sec: #0073c0;
+  --thr: #2849b4;
+  --frt: #e86a33;
+}
+* {
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #dadada;
+}
+header {
+  background: #0073c0;
+}
+.title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15vh;
+  text-align: center;
+  padding: 0.5em 0 0.5em 0;
+}
+span {
+  color: #acaaaa;
+  font-size: 3vw;
+  font-weight: 400 bold;
+}
+.head {
+  background-color: var(--pri);
+  text-align: center;
+  margin: 3em 1em;
+}
+.head h1 {
+  padding: 2em 0 0.5em;
+  font-size: 3vw;
+}
+.head p {
+  font-size: 1.5vw;
+  padding: 0 0 1em 0;
+}
+
+.head .persegi {
+  padding: 0.8em;
+  margin: 0 2em 0 2em;
+  background: var(--sec);
+  border-radius: 5px;
+  color: var(--pri);
+  font-size: 1.5vw;
+}
+.head .p-panjang {
+  padding: 0.8em;
+  margin: 0 2em 0 2em;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+.content {
+  margin: 2em 3em 0 3em;
+  border: 1px solid var(--sec);
+  /* height: 1500px; */
+}
+.content .title-content {
+  padding: 0.5em 0 0.5em 0;
+  font-size: 1.8vw;
+  background: var(--sec);
+  font-size: 13vh;
+  color: #ffffff;
+}
+.img {
+  display: inline-block;
+  padding: 5em 0 5em 0;
+}
+.img .square {
+  border: 1px solid red;
+  min-height: 150px;
+  min-width: 150px;
+}
+.img .text {
+  padding: 1em;
+}
+.rumus {
+  text-align: left;
+  padding: 1em;
+}
+.rumus p {
+  padding: 0.2em;
+}
+.rumus .contoh-rumus {
+  text-align: center;
+  font-size: 2em;
+}
+.hitung {
+  margin: 2em;
+}
+.hitung .title-hitung {
+  padding: 0.5em 0 0.5em 0;
+  font-size: 1.8vw;
+  background: var(--pri);
+  font-size: 13vh;
+  color: #000000;
+}
+input#sisi-luas {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+.hitung .output_luas {
+  margin: 1em;
+  text-align: left;
+}
+.hitung .hitung-luas {
+  background-color: var(--sec);
+  border: none;
+  border-radius: 2px;
+  margin: 1em;
+  padding: 0.5em 2em 0.5em 2em;
+  font-size: 1.5vw;
+  color: var(--pri);
+}
+.hitung .reset {
+  border-color: var(--sec);
+}
+
+input#sisi-keliling {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+.hitung .output_keliling {
+  margin: 1em;
+  text-align: left;
+}
+.hitung .hitung-keliling {
+  background-color: var(--sec);
+  border: none;
+  border-radius: 2px;
+  margin: 1em;
+  padding: 0.5em 2em 0.5em 2em;
+  font-size: 1.5vw;
+  color: var(--pri);
+}
+.hitung .reset {
+  border-color: var(--sec);
+}
